@@ -121,13 +121,13 @@ Here is an example:
 * URL: http://localhost:3000/reminders/64247bcde089a4563104892e
 
 Then do the moficaiton in the Raw JSON Text Field:
-...
+```
 {
   "title": "Buy groceries",
   "description": "Purchase groceries for next week",
   "dueDate": "2023-04-17T00:00:00.000Z"
 }
-...
+```
 
 4. Delete request:
 * URL: http://localhost:3000/reminders/64247bcde089a4563104892e
