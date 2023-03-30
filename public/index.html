@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+    <title>Reminders APP</title>
+    <link rel="stylesheet" href="dist/main.css">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,0,0" />
+</head>
+
+<body>
+    <div class="left">
+
+         <!-- add new reminders -->
+         <!-- <div class="add-todo"> -->
+            <div class="form1">
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <h2>Add Task</h2>
+                        <form>
+                            <div>
+                            <label>Title:</label><br>
+                            <input type="text" id="title" placeholder="New Task">
+                            </div>
+                            <div>
+                            <label>Description:</label><br>
+                            <input type="text" id="desc" placeholder="Description">
+                            </div>
+                            <div>  
+                            <label>Due Date:</label><br>
+                            <input type="date" id="date">
+                            </div>  
+                            <!-- <div>
+                            <label>Due Date:</label><br>
+                            <input type="date" id="duedate">
+                            </div> -->
+                            <button type="button" id="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+                
+
+                <div class="button">
+                    <button type="button" id="import">Import </button>
+                    <button type="button" id="add">Add</button>
+                </div>
+            </div>
+        <!-- </div> -->
+    </div>
+
+    <div class="right">
+        <h1>Reminders</h1>
+
+    <!-- display reminder items  -->
+    <div id="container"></div>
+    </div>
+    <script async src='main.js'></script>
+</body>
+</html>

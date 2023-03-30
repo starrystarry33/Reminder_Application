@@ -1,0 +1,38 @@
+[
+    {
+        "title":"Shopping",
+        "description":"Buy some essential oil in Whole Food",
+        "date":"02-21-2023",
+        "time":"18:00"
+    },
+    {
+        "title":"Calling",
+        "description":"Chatting with my friend Charlie",
+        "date":"02-22-2023",
+        "time":"12:00"
+    },
+    {
+        "title":"Laundry",
+        "description":"Do the laundry",
+        "date":"02-24-2023",
+        "time":"14:00"
+    },
+    {
+        "title":"Buy some cakes",
+        "description":"Buy some cakes in LadyM",
+        "date":"02-25-2023",
+        "time":"12:00"
+    },
+    {
+        "title":"Return the Ipad",
+        "description":"Return the ipad in Apple Boylston St",
+        "date":"02-26-2023",
+        "time":"19:00"
+    },
+    {
+        "title":"Painting",
+        "description":"Do some painting with Oil canvas",
+        "date":"02-27-2023",
+        "time":"18:00"
+    }
+]
